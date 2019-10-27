@@ -25,10 +25,16 @@ html, body, #root {
 
 }
 
-.navbar-text{
+#navbar-text{
   color: white!important;
   font-size: 20px;
   justify-content: center;
   text-align: center;
   margin-left: 130px;
+  display: contents;
+
+}
+
+#headerText{
+  padding: 20px;
 }
