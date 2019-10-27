@@ -6,6 +6,7 @@ import "./style.css";
 
 
 const Card=(props)=>{
+  
   return  <div id="topDiv">
     <div className="card">
       <div className="img-container" onClick={() => props.removeFriend (props.id) } >

@@ -3,7 +3,7 @@ import Card from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import friends from "./friends.json";
-
+import Body from "./components/Body";
 
 
 class App extends Component {
@@ -70,8 +70,8 @@ class App extends Component {
           </div>
 
         </Title >
+        <Body>
         {
-          
           this.state.friends.map(friend => (
             <Card
               
@@ -84,7 +84,7 @@ class App extends Component {
             />
           ))
         }
-
+</Body>
 <div className="navbar navbar-expand-lg navbar-light" id="navbarPurpleBottom">
             <div id="navbar-text">
                   <div id="headerText">
